@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: radial-gradient(#078f07,#99a598);
+    background: radial-gradient(#000000,#8c948c);
     flex-wrap: wrap;
 }
 a{
@@ -102,6 +102,16 @@ a{
     background: rgba(114, 115, 114, 0.939);
 }
 
+.card:nth-child(3):hover .circle::before {
+    clip-path: circle(400px at center);
+    background: radial-gradient(rgb(75, 2, 75), rgb(169, 121, 161));
+}
+
+.card:nth-child(4):hover .circle::before {
+    clip-path: circle(400px at center);
+    background: radial-gradient(#907803, rgb(221, 207, 116));
+}
+
 
 .footer {
     position: fixed;
@@ -109,7 +119,6 @@ a{
     bottom: 0px;
     width: 5vw;
     height: 8vh;
-    background-color: #eee;
     z-index: 9999;
     font-family: 'Pacifico', cursive;
 
@@ -117,8 +126,11 @@ a{
     flex-grow: 1;
     display: flex;
     align-items: flex-end;
-    justify-content: center
+    justify-content: center;
+
 }
+
+
 
 
 @media (max-width:991px) {
