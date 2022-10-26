@@ -1,0 +1,60 @@
+.banner {
+    background: url('./images/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content > .introduction {
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: fangsong;
+    color: #444;
+}
+
+.main-message {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    color: #444;
+    display: flex;
+}
+
+.main-message p {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.main-message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.main-message .date {
+    font-size: 12px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
+.main-message .name {
+    font-weight: bold;
+    color: #26709A;
+}
+
+.main-message input {
+    width: 60%;
+    height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .main-message p {
+        margin-top: 17px;
+    }
+  }
